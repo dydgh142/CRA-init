@@ -22,8 +22,7 @@ const Main = () => {
   function clock() {
     const date = new Date();
 
-    // const hours = ((date.getHours() + 11) % 12) + 1;
-    const hours = date.getHours();
+    const hours = ((date.getHours() + 11) % 12) + 1;
     const minutes = date.getMinutes();
     const seconds = date.getSeconds();
 
@@ -46,12 +45,12 @@ const Main = () => {
 
   return (
     <>
-      <div class="toggle-wrapper">
-        <div class="toggle normal">
+      <div className="toggle-wrapper">
+        <div className="toggle normal">
           <input id="normal" type="checkbox" />
-          <label class="toggle-item" for="normal"></label>
+          <label className="toggle-item" htmlFor="normal"></label>
         </div>
-        <div class="name">Normal</div>
+        <div className="name">Normal</div>
       </div>
       <section className="clock">
         <div className="hands">
