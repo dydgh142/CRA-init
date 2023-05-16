@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import "./style.css";
+import "./dogbtn.css";
 
 const Main = () => {
   // 시,분,초를 나타내는 요소를 가져오기
@@ -46,11 +47,19 @@ const Main = () => {
   return (
     <>
       <div className="toggle-wrapper">
-        <div className="toggle normal">
-          <input id="normal" type="checkbox" />
-          <label className="toggle-item" htmlFor="normal"></label>
+        <div className="toggle dog-rollover">
+          <input id="doggo" type="checkbox" />
+          <label className="toggle-item" htmlFor="doggo">
+            <div className="dog">
+              <div className="ear"></div>
+              <div className="ear right"></div>
+              <div className="face">
+                <div className="eyes"></div>
+                <div className="mouth"></div>
+              </div>
+            </div>
+          </label>
         </div>
-        <div className="name">Normal</div>
       </div>
       <section className="clock">
         <div className="hands">
