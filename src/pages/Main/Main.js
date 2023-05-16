@@ -48,6 +48,7 @@ const Main = () => {
     <>
       <div className="toggle-wrapper">
         <div className="toggle dog-rollover">
+          {/* 체크박스 설정시 변경 */}
           <input id="doggo" type="checkbox" />
           <label className="toggle-item" htmlFor="doggo">
             <div className="dog">
@@ -61,7 +62,7 @@ const Main = () => {
           </label>
         </div>
       </div>
-      <section className="clock">
+      <section className="clock bg-slate-700">
         <div className="hands">
           <div className="hour" ref={hourHandRef}></div>
           <div className="minute" ref={minuteHandRef}></div>
