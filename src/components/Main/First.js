@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import "./dogbtn.css";
 
 const First = () => {
   // 시,분,초를 나타내는 요소를 가져오기

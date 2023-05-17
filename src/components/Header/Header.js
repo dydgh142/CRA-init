@@ -6,7 +6,7 @@ import "./search.css";
 const Header = () => {
   return (
     <>
-      <div className="relative w-full h-[50px]">
+      <div className="relative h-[50px]">
         <header className="fixed h-[50px] w-full bg-white z-20 border-b-2">
           <span className="w-36 absolute top-[50%] translate-y-[-50%] left-[20vw] max-sm:left-[5vw]">
             <a className="flex flex-col" href="https://www.instagram.com/strap_m_/" target="_blank">
@@ -20,7 +20,7 @@ const Header = () => {
             <Link to={"/"} type="button" className="">
               홈
             </Link>
-            <Link to={"/yoonho"} type="button" className="mx-10">
+            <Link to={"/intro"} type="button" className="mx-10">
               소개
             </Link>
             <form method="get" action="http://www.google.co.kr/search" target="_blank" className="search-box absolute right-[5%]">

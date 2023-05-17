@@ -1,16 +1,16 @@
 import React from "react";
 
-const Yoonho = () => {
+const Intro = () => {
   return (
-    <div>
+    <div className="h-full ">
       <section className="relative h-[80vh]">
         <img src="img/cat.jpg" className="opacity-50 w-[100vw] h-[100%] object-cover" alt="고양이 배경" />
         <h2 className="absolute top-[50%] left-[50%] -translate-x-[50%] text-[#4a4a4a] text-2xl">Welcome my home :)</h2>
       </section>
 
       {/* <div className="profileImg w-[0%]">
-            <img src="img/profile.jpg" className="opacity-50" alt="프로필" />
-          </div> */}
+          <img src="img/profile.jpg" className="opacity-50" alt="프로필" />
+        </div> */}
       <section className="w-[70%] ml-auto mr-auto mt-8 mb-10 text-left">
         <h3 className="yoonhoH3">Introduction</h3>
         <p>
@@ -27,7 +27,7 @@ const Yoonho = () => {
       </section>
 
       <section className=" ml-auto mr-auto bg-base">
-        <h3 className="yoonhoH3 w-[70%]">Work Experience</h3>
+        <h3 className="yoonhoH3 w-[70%] mx-auto text-left">Work Experience</h3>
       </section>
 
       <footer className="w-full mt-10 mb-7">
@@ -47,4 +47,4 @@ const Yoonho = () => {
   );
 };
 
-export default Yoonho;
+export default Intro;

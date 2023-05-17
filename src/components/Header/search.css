@@ -3,7 +3,6 @@
 body {
   align-items: center;
   flex-wrap: nowrap;
-  overflow: hidden;
 }
 
 input {
