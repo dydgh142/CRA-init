@@ -4,7 +4,7 @@
   position: absolute;
 }
 
-input {
+.toggle input {
   height: 40px;
   left: 0;
   opacity: 0;
