@@ -4,7 +4,7 @@
 
 @layer components {
   .yoonhoH3 {
-    @apply font-bold text-3xl mb-4 text-[#4a4a4a] px-2 py-2;
+    @apply font-bold text-3xl mb-4 text-textbase px-2 py-2;
   }
 }
 
