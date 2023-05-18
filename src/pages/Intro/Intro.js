@@ -55,14 +55,14 @@ const Intro = () => {
                     <FiInstagram />
                   </li>
                 </a>
-                <li className="icon email">
-                  <span className="tooltip">Email</span>
-                  <CopyToClipboard text="dydgh142@naver.com" onCopy={() => alert("클립보드에 복사되었습니다.")}>
+                <CopyToClipboard text="dydgh142@naver.com" onCopy={() => alert("클립보드에 복사되었습니다.")}>
+                  <li className="icon email">
+                    <span className="tooltip">Email</span>
                     <button>
                       <GrMail />
                     </button>
-                  </CopyToClipboard>
-                </li>
+                  </li>
+                </CopyToClipboard>
               </ul>
             </div>
           </div>
@@ -84,11 +84,59 @@ const Intro = () => {
         </p>
       </section>
 
-      <section className=" ml-auto mr-auto bg-base py-12">
-        <h3 className="yoonhoH3 w-[70%] border-b-2 border-textbase mx-auto text-left">Work Experience</h3>
+      <section className="  bg-base py-12 text-left">
+        <div className="w-[70%] mx-auto">
+          <h3 className="yoonhoH3  border-b-2 border-textbase mx-auto text-left mb-5">Work Experience</h3>
+          <div className="border-b-2 border-gray-400 pb-3 mb-5">
+            <div className="font-bold text-xl my-2">엘 플로레스 (꽃집)</div>
+            <div className="text-gray-500 mb-2 font-semibold">2021.11 ~ 현재 (1년 7개월 ~)</div>
+            <li>생화 손질 및 예식장 기구 관리, 화기청소 등.</li>
+            <li>빠르게 변화하는 업무 상황에 대처하며, 적시에 맞게 판단하고 일의 우선순위를 파악해 처리하는 능력을 향상시킴.</li>
+            <li>변동사항이 많아 관리하기 힘들었던 알바생들의 스케줄을 미리 조사하고 일정에 맞게 조정해 원활한 업무 진행에 도움을 줌.</li>
+          </div>
+          <div className="border-b-2 border-gray-400 divb-3 mb-5">
+            <div className="font-bold text-xl my-2">2020 - 2021 KBO 포스트시즌 (야구장) </div>
+            <div className="text-gray-500 mb-2 font-semibold">2020.11 ~ (24일 단기) 2021.11 ~ (18일 단기)</div>
+            <li>관람객들의 입장 통제 및 발열 검사, 소지품검사 등.</li>
+            <li>선수 동선 관리, 바리케이트 설치 및 관객 통제</li>
+            <li>관객들의 안전을 위해 많은 인원들과 협력하고 소통.</li>
+            <li>신속한 보고 및 처리능력의 향상</li>
+          </div>
+          <div className="border-b-2 border-gray-400 divb-3 mb-5">
+            <div className="font-bold text-xl my-2">CASAMIA (리빙브랜드) </div>
+            <div className="text-gray-500 mb-2 font-semibold"> 2020.07 ~ 2021.10 (1년 4개월)</div>
+            <li>입고관리, 진열, 청소, 판매, 가구조립등 업무 수행</li>
+            <li>체계적이지 않던 입고, 물류관리를 정형화된 입고 및 물류 관리방식으로 개선함으로 처리 시간과 정확도를 향상시킴.</li>
+          </div>
+        </div>
       </section>
 
-      <footer className="w-full mt-10 mb-7">
+      <section>
+        <div>
+          <h3 className="yoonhoH3 my-10">Projects</h3>
+        </div>
+      </section>
+
+      <section className="bg-base py-10 text-left">
+        <div className="w-[70%] mx-auto">
+          <h3 className="yoonhoH3 border-b-2 border-textbase">Skill</h3>
+          <li className="my-2"> Front-End : HTML, CSS, JavaScript, React, tailwind</li>
+          <li> Android: Java, Kotlin, RetrofitAPI, JWTToken</li>
+        </div>
+      </section>
+
+      <section className="text-left my-10">
+        <div className="w-[70%] mx-auto">
+          <h3 className="yoonhoH3 border-b-2 border-textbase">Other Experience</h3>
+          <div className="text-xl text-textbase mt-5 mb-2 font-bold">🏃‍♀️ Activities</div>
+          <li>2022.11 - 2023.03 🦁멋쟁이사자처럼 프론트엔드 스쿨 4기 수료</li>
+          <li>2017.03 - 2018.02 안양대학교 이공대학 학생회 ‘AURA’</li>
+          <div className="text-xl text-textbase mt-5 mb-2 font-bold">🏆 Awards</div>
+          <div className="text-xl text-textbase mt-5 mb-2 font-bold">📚 Certificate </div>
+        </div>
+      </section>
+
+      <footer className="w-full bg-base py-10">
         <h3 className="yoonhoH3 my-7">경력사항 및 자격증</h3>
         <ul className="text-lg text-[#4a4a4a] ">
           <li className="my-4">2022.06-2022.07 한국관광공사 / 2022 관광데이터 활용 공모전 교육 프로그램 이수</li>
