@@ -6,6 +6,9 @@
   .yoonhoH3 {
     @apply font-bold text-3xl mb-4 text-textbase px-2 py-2;
   }
+  .red {
+    @apply text-red-500 bg-gray-200 px-[6px] rounded-sm text-sm;
+  }
 }
 
 @layer utilities {

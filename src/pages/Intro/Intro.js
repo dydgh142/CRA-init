@@ -94,7 +94,7 @@ const Intro = () => {
             <li>빠르게 변화하는 업무 상황에 대처하며, 적시에 맞게 판단하고 일의 우선순위를 파악해 처리하는 능력을 향상시킴.</li>
             <li>변동사항이 많아 관리하기 힘들었던 알바생들의 스케줄을 미리 조사하고 일정에 맞게 조정해 원활한 업무 진행에 도움을 줌.</li>
           </div>
-          <div className="border-b-2 border-gray-400 divb-3 mb-5">
+          <div className="border-b-2 border-gray-400 mb-5 pb-3">
             <div className="font-bold text-xl my-2">2020 - 2021 KBO 포스트시즌 (야구장) </div>
             <div className="text-gray-500 mb-2 font-semibold">2020.11 ~ (24일 단기) 2021.11 ~ (18일 단기)</div>
             <li>관람객들의 입장 통제 및 발열 검사, 소지품검사 등.</li>
@@ -102,7 +102,7 @@ const Intro = () => {
             <li>관객들의 안전을 위해 많은 인원들과 협력하고 소통.</li>
             <li>신속한 보고 및 처리능력의 향상</li>
           </div>
-          <div className="border-b-2 border-gray-400 divb-3 mb-5">
+          <div className="border-b-2 border-gray-400 mb-5 pb-3">
             <div className="font-bold text-xl my-2">CASAMIA (리빙브랜드) </div>
             <div className="text-gray-500 mb-2 font-semibold"> 2020.07 ~ 2021.10 (1년 4개월)</div>
             <li>입고관리, 진열, 청소, 판매, 가구조립등 업무 수행</li>
@@ -128,11 +128,39 @@ const Intro = () => {
       <section className="text-left my-10">
         <div className="w-[70%] mx-auto">
           <h3 className="yoonhoH3 border-b-2 border-textbase">Other Experience</h3>
-          <div className="text-xl text-textbase mt-5 mb-2 font-bold">🏃‍♀️ Activities</div>
-          <li>2022.11 - 2023.03 🦁멋쟁이사자처럼 프론트엔드 스쿨 4기 수료</li>
-          <li>2017.03 - 2018.02 안양대학교 이공대학 학생회 ‘AURA’</li>
-          <div className="text-xl text-textbase mt-5 mb-2 font-bold">🏆 Awards</div>
-          <div className="text-xl text-textbase mt-5 mb-2 font-bold">📚 Certificate </div>
+          <div className="border-b-2 border-gray-400 mb-5 pb-3">
+            <div className="text-xl text-textbase mt-5 mb-2 font-bold">🏃‍♀️ Activities</div>
+            <li>
+              <span className="red">2022.11 - 2023.03</span> 🦁멋쟁이사자처럼 프론트엔드 스쿨 4기 <span className="red">수료</span>
+            </li>
+            <li>
+              <span className="red">2017.03 - 2018.02</span> 안양대학교 이공대학 학생회 ‘AURA’
+            </li>
+          </div>
+          <div className="border-b-2 border-gray-400 mb-5 pb-3">
+            <div className="text-xl text-textbase mt-5 mb-2 font-bold">🏆 Awards</div>
+            <li>
+              <span className="red">2022</span> 한국관광공사와 카카오 주관 ‘2022 관광데이터 활용 공모전’ <span className="underline">장려상 수상</span>
+            </li>
+            <li>
+              <span className="red">2022</span> 안양대학교 ‘CapSton Desgin’ <span className="underline">장려상 수상</span>
+            </li>
+          </div>
+          <div className="border-b-2 border-gray-400 mb-5 pb-3">
+            <div className="text-xl text-textbase mt-5 mb-2 font-bold">📚 Certificate </div>
+            <li>
+              정보처리기사 <span className="red">2022.11.25</span>
+            </li>
+            <li>
+              전산회계 2급 <span className="red">2022.04.27</span>
+            </li>
+            <li>
+              리눅스마스터 2급 <span className="red">2021.10.01</span>
+            </li>
+            <li>
+              네트워크관리사 2급 <span className="red">2021.07.21</span>
+            </li>
+          </div>
         </div>
       </section>
 
@@ -148,7 +176,6 @@ const Intro = () => {
           <li className="my-4">22.11.25 / 정보처리기사 / 한국산업인력 공단</li>
         </ul>
       </footer>
-      <>.</>
     </div>
   );
 };
