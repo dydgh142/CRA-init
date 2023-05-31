@@ -17,16 +17,11 @@ const Intro = () => {
   }
   return (
     <div className="h-full ">
-      <section className="relative h-[80vh]">
-        <img src="img/cat.jpg" className="opacity-50 w-[100vw] h-[100%] object-cover" alt="고양이 배경" />
-        <p className="absolute top-[50%] left-[50%] -translate-x-[50%] text-[#4a4a4a] text-2xl">Welcome my home :)</p>
-      </section>
-
-      <section className=" bg-base py-12">
-        <div className="w-[70%] mx-auto text-left">
+      <section className=" bg-base pt-10 pb-24">
+        <div className="w-[70%] mx-auto text-left mt-10 relative">
           <h2 className="yoonhoH3">조윤호의 이력서</h2>
           <div className="text-textbase text-lg mb-5 pb-2 border-b-2 border-textbase">다양한 협업 경험을 통해 팀워크를 중요시하며, 함께 성장하는 것을 추구하는 조윤호 입니다.</div>
-          <div className="flex">
+          <div className="flex ">
             <div className="w-1/3">
               <img src="img/profile.jpg" className="opacity-80" alt="프로필" />
             </div>
@@ -36,35 +31,35 @@ const Intro = () => {
                 <li className="mb-2">🔥 겸손한 자세에서 항상 배우고 도전하겠습니다.</li>
                 <li className="mb-2">🌈 소통을 중요시 생각하며, 문제를 풀어가는 과정에서 즐거움을 느낍니다.</li>
               </ul>
-              <ul className="absolute -bottom-5 wrapper mt-4">
-                <a href="https://github.com/dydgh142" target="_blank">
-                  <li className="icon github">
-                    <span className="tooltip">Github</span>
-                    <BsGithub />
-                  </li>
-                </a>
-                <a href="https://strap.tistory.com/" target="_blank">
-                  <li className="icon tistory mx-10">
-                    <span className="tooltip">Tistory</span>
-                    <SiTistory />
-                  </li>
-                </a>
-                <a href="https://www.instagram.com/strap_m_/" target="_blank">
-                  <li className="icon instagram">
-                    <span className="tooltip">Instagram</span>
-                    <FiInstagram />
-                  </li>
-                </a>
-                <CopyToClipboard text="dydgh142@naver.com" onCopy={() => alert("클립보드에 복사되었습니다.")}>
-                  <li className="icon email">
-                    <span className="tooltip">Email</span>
-                    <button>
-                      <GrMail />
-                    </button>
-                  </li>
-                </CopyToClipboard>
-              </ul>
             </div>
+            <ul className="absolute -bottom-20  w-full justify-center wrapper">
+              <a href="https://github.com/dydgh142" target="_blank">
+                <li className="icon github">
+                  <span className="tooltip">Github</span>
+                  <BsGithub />
+                </li>
+              </a>
+              <a href="https://strap.tistory.com/" target="_blank">
+                <li className="icon tistory mx-10">
+                  <span className="tooltip">Tistory</span>
+                  <SiTistory />
+                </li>
+              </a>
+              <a href="https://www.instagram.com/strap_m_/" target="_blank">
+                <li className="icon instagram">
+                  <span className="tooltip">Instagram</span>
+                  <FiInstagram />
+                </li>
+              </a>
+              <CopyToClipboard text="dydgh142@naver.com" onCopy={() => alert("클립보드에 복사되었습니다.")}>
+                <li className="icon email">
+                  <span className="tooltip">Email</span>
+                  <button>
+                    <GrMail />
+                  </button>
+                </li>
+              </CopyToClipboard>
+            </ul>
           </div>
         </div>
       </section>
@@ -117,7 +112,7 @@ const Intro = () => {
           <div className="flex border-b-2 border-gray-400 mb-5 pb-3">
             <div className="w-1/3 mr-4 ">
               <img src="img/udon.png" alt="우동집" className="mb-4" />
-              <a href="https://github.com/kindergarten-udon/udon-house" target="_blank" className="text-gray-500 font-semibold text-xl border-b-[1px] border-textbase">
+              <a href="https://github.com/kindergarten-udon/udon-house" target="_blank" className="textbutton">
                 우동집
               </a>
               <div className="font-semibold my-2">멋쟁이사자처럼 최종 프로젝트</div>
@@ -155,7 +150,7 @@ const Intro = () => {
           <div className="flex border-b-2 border-gray-400 mb-5 pb-3">
             <div className="w-1/3 mr-4 ">
               <img src="img/taing.png" alt="우동집" className="mb-4" />
-              <a href="https://github.com/likelion-js-project4/taing" target="_blank" className="text-gray-500 font-semibold text-xl border-b-[1px] border-textbase">
+              <a href="https://github.com/likelion-js-project4/taing" target="_blank" className="textbutton">
                 TAING
               </a>
               <div className="font-semibold my-2">멋쟁이사자처럼 중간 프로젝트</div>
@@ -185,7 +180,7 @@ const Intro = () => {
           <div className="flex border-b-2 border-gray-400 mb-5 pb-3">
             <div className="w-1/3 mr-4 ">
               <img src="img/fitsum.png" alt="핏썸" className="mb-4" />
-              <a href="https://github.com/fitnesssumm" target="_blank" className="text-gray-500 font-semibold text-xl border-b-[1px] border-textbase">
+              <a href="https://github.com/fitnesssumm" target="_blank" className="textbutton">
                 FitSum
               </a>
               <div className="font-semibold my-2">운동을 통한 캐릭터 육성 어플 </div>
@@ -224,7 +219,7 @@ const Intro = () => {
           <div className="flex border-b-2 border-gray-400 mb-5 pb-3">
             <div className="w-1/3 mr-4 ">
               <img src="img/bermuda.png" alt="버뮤다" className="mb-4" />
-              <a href="https://github.com/dydgh142/BERMUDA_Android" target="_blank" className="text-gray-500 font-semibold text-xl border-b-[1px] border-textbase">
+              <a href="https://github.com/dydgh142/BERMUDA_Android" target="_blank" className="textbutton">
                 BERMUDA
               </a>
               <div className="font-semibold my-2">음악일기 버뮤다</div>

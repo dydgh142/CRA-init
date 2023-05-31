@@ -9,6 +9,9 @@
   .red {
     @apply text-red-400 font-semibold bg-gray-200 px-[6px] rounded-sm text-sm;
   }
+  .textbutton {
+    @apply text-gray-500 font-semibold border-b-[1px] border-textbase;
+  }
 }
 
 @layer utilities {
