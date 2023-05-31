@@ -111,9 +111,143 @@ const Intro = () => {
         </div>
       </section>
 
-      <section>
-        <div>
-          <h3 className="yoonhoH3 my-10">Projects</h3>
+      <section className="text-left py-12">
+        <div className="w-[70%] mx-auto">
+          <h3 className="yoonhoH3 border-b-2 border-textbase">Projects</h3>
+          <div className="flex border-b-2 border-gray-400 mb-5 pb-3">
+            <div className="w-1/3 mr-4 ">
+              <img src="img/udon.png" alt="우동집" className="mb-4" />
+              <a href="https://github.com/kindergarten-udon/udon-house" target="_blank" className="text-gray-500 font-semibold text-xl border-b-[1px] border-textbase">
+                우동집
+              </a>
+              <div className="font-semibold my-2">멋쟁이사자처럼 최종 프로젝트</div>
+              <div className="text-textbase">2023.03.09 ~ 2023.03.29 (3주)</div>
+            </div>
+            <div className="w-2/3">
+              <li className="mb-1">DailyScrum 활용, 팀원들과 단기목표 설정 및 진행사항 보고등 회의록을 정리하고 Wiki에 최신화를 통해 현재 프로젝트의 진행사항을 쉽게 확인할 수 있도록 함</li>
+              <li className="mb-1">figma를 이용해 웹페이지의 디자인을 도맡아 진행. (참고사이트는 아이들나라 이며 새로운 페이지인 경우는 새로 기획하고 기존페이지는 각색을 통해 프로젝트를 진행) </li>
+              <li className="mb-1">웹 접근성 체크리스트 작성을 통해 마우스, 키보드 동시접근 가능</li>
+              <li className="mb-1">마이페이지 기능중 회원만의 게시글, 즐겨찾기 기능을 구현하기 위해 현재 로그인되어 있는 정보의 유저아이디와 게시글의 createId를 비교후 랜더링</li>
+              <li className="mb-1">
+                게시판의 인기 게시물 순위 변화, 사용자의 게시글 작성등 실시간 랜더링을 위한{" "}
+                <a
+                  href="https://strap.tistory.com/68"
+                  target="_blank"
+                  className="font-semibold text-textbase border-b-[1px] border-gray-400
+                "
+                >
+                  onSnapshot
+                </a>
+                코드작성
+              </li>
+              <div className="my-3">
+                <span className="red mx-1">HTML</span>
+                <span className="red mx-1">React</span>
+                <span className="red mx-1">tailwind</span>
+                <span className="red mx-1">JavaScript</span>
+                <span className="red mx-1">Figma</span>
+              </div>
+              <a href="https://udon-house.netlify.app/" target="_blank" className="text-gray-500 font-semibold border-b-[1px] border-gray-400">
+                🔗Result
+              </a>
+            </div>
+          </div>
+          <div className="flex border-b-2 border-gray-400 mb-5 pb-3">
+            <div className="w-1/3 mr-4 ">
+              <img src="img/taing.png" alt="우동집" className="mb-4" />
+              <a href="https://github.com/likelion-js-project4/taing" target="_blank" className="text-gray-500 font-semibold text-xl border-b-[1px] border-textbase">
+                TAING
+              </a>
+              <div className="font-semibold my-2">멋쟁이사자처럼 중간 프로젝트</div>
+              <div className="text-textbase">2023.01.27 ~ 2023.02.09 (2주)</div>
+            </div>
+            <div className="w-2/3">
+              <li className="mb-1">
+                DailyScrum 활용통해 팀원들과 단기목표 설정, 진행사항 보고 및{" "}
+                <a href="https://github.com/likelion-js-project4/taing/wiki" target="_blank" className="font-semibold text-textbase border-b-[1px] border-gray-400">
+                  wiki
+                </a>
+                활용
+              </li>
+              <li className="mb-1">웹 접근성 체크리스트 작성을 통해 마우스, 키보드 동시접근 가능</li>
+              <li className="mb-1">사용자 입력란 기준 충족시 버튼 활성화 및 접근가능</li>
+              <li className="mb-1">LightHouse를 통해 성능,SEO등 20점 향상</li>
+
+              <div className="my-3">
+                <span className="red mx-1">HTML</span>
+                <span className="red mx-1">CSS</span>
+                <span className="red mx-1">JavaScript</span>
+                <span className="red mx-1">Figma</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex border-b-2 border-gray-400 mb-5 pb-3">
+            <div className="w-1/3 mr-4 ">
+              <img src="img/fitsum.png" alt="핏썸" className="mb-4" />
+              <a href="https://github.com/fitnesssumm" target="_blank" className="text-gray-500 font-semibold text-xl border-b-[1px] border-textbase">
+                FitSum
+              </a>
+              <div className="font-semibold my-2">운동을 통한 캐릭터 육성 어플 </div>
+              <div className="text-textbase">2022.05 ~ 2022.11 (30주)</div>
+              <div className="text-textbase">안양대학교 ‘2022 CapStonDesgin’ 수상작</div>
+            </div>
+            <div className="w-2/3">
+              <li className="mb-1">figma 를 이용해 Application UI 디자인</li>
+              <li className="mb-1">
+                <a href="https://www.tensorflow.org/lite/examples/pose_estimation/overview?hl=ko" target="_blank" className="font-semibold text-textbase border-b-[1px] border-gray-400">
+                  Tensorflow-PoseNet
+                </a>
+                을 이용하여 사용자의 자세를 인식
+              </li>
+              <li className="mb-1">
+                <a href="https://github.com/dydgh142/Fitsum_Android/blob/main/fitsum/posenet/RepetitionCounter.kt" target="_blank" className="font-semibold text-textbase border-b-[1px] border-gray-400">
+                  관절 포인트의 움직임
+                </a>
+                을 이용하여 운동횟수 카운트
+              </li>
+              <li className="mb-1">Dto와 RetrofitAPI 를 이용해 비동기적 으로 데이터 처리를 처리하고, 서버측에서 자동으로 파싱하게되어 빠른 통신과 좋은 가독성을 갖게 함</li>
+              <li className="mb-1">JWTToken을 이용하여 자동로그인, 로그인상태 유지 등 구현</li>
+              <li className="mb-1">캐릭터의 성별, 아이템 구매에 따른 이미지 변경기능으로 사용자의 재미를 더함</li>
+
+              <div className="my-3">
+                <span className="red mx-1">JAVA</span>
+                <span className="red mx-1">Kotlin</span>
+                <span className="red mx-1">XML</span>
+                <span className="red mx-1">RetrofitAPI</span>
+                <span className="red mx-1">JWTToken</span>
+                <span className="red mx-1">Figma</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex border-b-2 border-gray-400 mb-5 pb-3">
+            <div className="w-1/3 mr-4 ">
+              <img src="img/bermuda.png" alt="버뮤다" className="mb-4" />
+              <a href="https://github.com/dydgh142/BERMUDA_Android" target="_blank" className="text-gray-500 font-semibold text-xl border-b-[1px] border-textbase">
+                BERMUDA
+              </a>
+              <div className="font-semibold my-2">음악일기 버뮤다</div>
+              <div className="text-textbase">2022.07 ~ 2022.09 (12주)</div>
+              <div className="text-textbase">한국관광공사와 카카오 주관 ‘2022 관광데이터 활용 공모전’ 수상작</div>
+            </div>
+            <div className="w-2/3">
+              <li className="mb-1">figma를 이용하여 Application UI 디자인</li>
+              <li className="mb-1">Android Stuido를 사용하여 UI 개발 및 통신 구현 진행 </li>
+              <li className="mb-1">Dto와 RetrofitAPI 를 이용해 비동기적 으로 데이터를 처리하고, 서버측에서 자동으로 파싱하게되어 빠른 통신과 좋은 가독성을 갖게 함</li>
+              <li className="mb-1">JWT Token을 이용하여 자동로그인, 로그인상태 유지 등 구현</li>
+              <li className="mb-1">지역별관광 데이터를 이용해 축제정보, 관광지 정보등을 표시</li>
+
+              <div className="my-3">
+                <span className="red mx-1">JAVA</span>
+                <span className="red mx-1">Kotlin</span>
+                <span className="red mx-1">XML</span>
+                <span className="red mx-1">RetrofitAPI</span>
+                <span className="red mx-1">JWTToken</span>
+                <span className="red mx-1">Figma</span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 

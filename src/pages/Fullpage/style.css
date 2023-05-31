@@ -12,7 +12,8 @@ body {
 
 a:hover,
 a:focus {
-  color: #6fc754;
+  color: #e7a7a7;
+  border-color: #e7a7a7;
   outline: 0 none;
   text-decoration: none;
   transition: all 0.4s;
