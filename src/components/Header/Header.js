@@ -26,7 +26,7 @@ const Header = () => {
           test
         </Link>
       </div>
-      <div className="absolute right-[10vw] top-[50%] -translate-y-[50%] font-bold">
+      <div className="absolute right-[10vw] top-[50%] -translate-y-[60%] font-bold">
         <form method="get" action="http://www.google.co.kr/search" target="_blank" className="search-box absolute right-[5%]">
           <input name="q" type="text" placeholder=" " />
           <button type="reset" value={"구글검색"}></button>
