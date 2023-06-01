@@ -5,6 +5,18 @@ import { BsGithub } from "react-icons/bs";
 import { SiTistory } from "react-icons/si";
 import { FiInstagram } from "react-icons/fi";
 import { GrMail } from "react-icons/gr";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 const Intro = () => {
   function copyToClipboard(text) {
@@ -17,6 +29,7 @@ const Intro = () => {
   }
   return (
     <div className="h-full ">
+      <ScrollToTop />
       <section className=" bg-base pt-10 pb-24">
         <div className="w-[70%] mx-auto text-left mt-10 relative">
           <h2 className="yoonhoH3">조윤호의 이력서</h2>

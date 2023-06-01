@@ -1,8 +1,21 @@
 import React from "react";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 const Port = () => {
   return (
     <div className="pt-12 text-left">
+      <ScrollToTop />
       <section className="bg-orange-100">
         <h2 className="w-[70%] mx-auto text-3xl text-textbase font-semibold py-5">💻Projects</h2>
       </section>
