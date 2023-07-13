@@ -131,7 +131,7 @@ const Intro = () => {
               <div className="font-semibold my-2">멋쟁이사자처럼 최종 프로젝트</div>
               <div className="text-textbase">2023.03.09 ~ 2023.03.29 (3주)</div>
             </div>
-            <div className="w-2/3">
+            <div className="w-2/3 my-auto ml-4">
               <li className="mb-1">DailyScrum 활용, 팀원들과 단기목표 설정 및 진행사항 보고등 회의록을 정리하고 Wiki에 최신화를 통해 현재 프로젝트의 진행사항을 쉽게 확인할 수 있도록 함</li>
               <li className="mb-1">figma를 이용해 웹페이지의 디자인을 도맡아 진행. (참고사이트는 아이들나라 이며 새로운 페이지인 경우는 새로 기획하고 기존페이지는 각색을 통해 프로젝트를 진행) </li>
               <li className="mb-1">웹 접근성 체크리스트 작성을 통해 마우스, 키보드 동시접근 가능</li>
@@ -169,7 +169,7 @@ const Intro = () => {
               <div className="font-semibold my-2">멋쟁이사자처럼 중간 프로젝트</div>
               <div className="text-textbase">2023.01.27 ~ 2023.02.09 (2주)</div>
             </div>
-            <div className="w-2/3">
+            <div className="w-2/3 my-auto ml-4">
               <li className="mb-1">
                 DailyScrum 활용통해 팀원들과 단기목표 설정, 진행사항 보고 및{" "}
                 <a href="https://github.com/likelion-js-project4/taing/wiki" target="_blank" className="font-semibold text-textbase border-b-[1px] border-gray-400">
@@ -200,7 +200,7 @@ const Intro = () => {
               <div className="text-textbase">2022.05 ~ 2022.11 (30주)</div>
               <div className="text-textbase">안양대학교 ‘2022 CapStonDesgin’ 수상작</div>
             </div>
-            <div className="w-2/3">
+            <div className="w-2/3 my-auto ml-4">
               <li className="mb-1">figma 를 이용해 Application UI 디자인</li>
               <li className="mb-1">
                 <a href="https://www.tensorflow.org/lite/examples/pose_estimation/overview?hl=ko" target="_blank" className="font-semibold text-textbase border-b-[1px] border-gray-400">
@@ -239,7 +239,7 @@ const Intro = () => {
               <div className="text-textbase">2022.07 ~ 2022.09 (12주)</div>
               <div className="text-textbase">한국관광공사와 카카오 주관 ‘2022 관광데이터 활용 공모전’ 수상작</div>
             </div>
-            <div className="w-2/3">
+            <div className="w-2/3 my-auto ml-4">
               <li className="mb-1">figma를 이용하여 Application UI 디자인</li>
               <li className="mb-1">Android Stuido를 사용하여 UI 개발 및 통신 구현 진행 </li>
               <li className="mb-1">Dto와 RetrofitAPI 를 이용해 비동기적 으로 데이터를 처리하고, 서버측에서 자동으로 파싱하게되어 빠른 통신과 좋은 가독성을 갖게 함</li>
