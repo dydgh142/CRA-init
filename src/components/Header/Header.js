@@ -19,9 +19,6 @@ const Header = () => {
         <Link to={"/port"} type="button" className="mx-5">
           portfolio
         </Link>
-        <Link to={"/fullpage"} type="button" className="mx-5">
-          fullpage
-        </Link>
         <Link to={"/test"} type="button" className="mx-5">
           test
         </Link>
