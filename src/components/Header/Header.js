@@ -13,15 +13,6 @@ const Header = () => {
             strap_m_
           </div>
         </Link>
-        <Link to={"/intro"} type="button" className="mx-5">
-          이력서
-        </Link>
-        <Link to={"/port"} type="button" className="mx-5">
-          portfolio
-        </Link>
-        <Link to={"/test"} type="button" className="mx-5">
-          test
-        </Link>
       </div>
       <div className="absolute right-[10vw] top-[50%] -translate-y-[60%] font-bold">
         <form method="get" action="http://www.google.co.kr/search" target="_blank" className="search-box absolute right-[5%]">
