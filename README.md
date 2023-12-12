@@ -1,7 +1,3 @@
-# cra-init
+# develop
 
-🧑🏻‍💻 cra - vite 기본 설정 repository
-
----
-
-cra, Prettier, eslint 등 기본 설정 마친 repository
+🧑🏻‍💻 개인 개발 및 연습 페이지
