@@ -1,5 +1,4 @@
 import React from "react";
-import "./sns.css";
 import { CopyToClipboard } from "react-copy-to-clipboard/src";
 import { BsGithub } from "react-icons/bs";
 import { SiTistory } from "react-icons/si";

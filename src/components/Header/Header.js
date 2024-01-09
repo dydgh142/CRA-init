@@ -13,12 +13,6 @@ const Header = () => {
             strap_m_
           </div>
         </Link>
-        <Link to={"/intro"} type="button" className="mx-5">
-          이력서
-        </Link>
-        <Link to={"/port"} type="button" className="mx-5">
-          portfolio
-        </Link>
         <Link to={"/test"} type="button" className="mx-5">
           test
         </Link>
